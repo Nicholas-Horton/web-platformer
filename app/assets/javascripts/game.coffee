@@ -1,7 +1,3 @@
-# Place all the behaviors and hooks related to the matching controller here.
-# All this logic will automatically be available in application.js.
-# You can use CoffeeScript in this file: http://coffeescript.org/
-
 # Pointer game example
 preload = ->
   game.load.image 'arrow', 'assets/arrow.png'
