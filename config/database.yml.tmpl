@@ -1,0 +1,14 @@
+default: &default
+  adapter: postgresql
+  username: 
+  password: 
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: dev_nhorton_postgres
+
+production:
+  <<: *default
+  database: prod_nhorton_postgres
